@@ -65,17 +65,10 @@ body, html {
 <!-- Menu Container -->
   <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
 
-  <div  id="leafly-brand-finder">
-    <script type="text/javascript" src="https://brand-finder-integration.leafly.io/embed.js"></script>
-    <script type="text/javascript">
-      window.embedLeaflyBrandMap({
-        parentId: 'leafly-brand-finder',
-        url: 'https://brand-finder-integration.leafly.io?brand=lifted',
-        width: '100%',
-        aboveFoldMargin: 8    
-      });
-    </script>
-  </div>
+  <main  class="container">
+    <div id="leafly-menu"></div><div style="text-align:center;">Visit our profile on <a href="https://www-integration.leafly.io/dispensary-info/patriot-care-boston">Leafly</a></div><script src="https://www.leafly.com/public/global/js/dispensarymanager/embed.js"></script>
+    <script>var pymParent = pym.Parent('leafly-menu', 'https://www-integration.leafly.io/embed/menu/patriot-care-boston', {});</script>
+  </main>
 <!-- End page content -->
 
 <!-- Footer -->
